@@ -1,4 +1,6 @@
 import streamlit as st
+import grafico1
+import dachboard
 # Cores 
 st.markdown(
     """
@@ -38,4 +40,5 @@ if st.button('Grafico de vendas', type='primary'):
 if st.button('Dachboard Geral', type='primary'):
     st.page_link('pages/dachboard.py',
                  label='Ir',
+
                  icon='📊')
