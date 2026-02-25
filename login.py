@@ -1,4 +1,6 @@
 import streamlit as st 
+import principal
+import dachboard
 #cores
 st.markdown(
     """
@@ -31,4 +33,5 @@ else:
 st.write('## Sobre a VendaGest')     
 st.write('-> A VendaGest é um site para você ter controle da sua empresa ou seu negocio.')
 st.write('Na VendaGest você tem acesso a graficos e tabelas de finaças da sua empresa.')
+
 st.write('Para ter mais informações acesse nosso instagram ou entre em contato com nossos desenvolvedores.')
