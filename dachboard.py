@@ -89,6 +89,10 @@ df2 = pd.DataFrame({
     "Valor": ["R$ 500", "R$ 800", "R$ 300", "R$ 1.200"],
     "Status": ["Pago", "Pago", "Pendente", "Pago"]
 })
-
+# Tabela visual do banco de dados
 st.dataframe(df2, use_container_width=True)
 
+if st.button('Voltar', type='primary'):
+    st.page_link('pages/principal.py',
+                 label='Voltar',
+                 icon='◀')
