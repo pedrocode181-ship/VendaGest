@@ -19,4 +19,5 @@ grafico = px.sunburst(tabela, path=['cidade', 'mercado'], values='valor', color=
 
 st.plotly_chart(grafico)
 
+
 st.write('-> Click na cidade desejada para obter mais informações')
